@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>War Draw</title>
+</head>
+<body>
+  
+    <div id="container">
+
+        <button id="new-deck" class="button">Shuffle Deck!</button>
+        <img id="logo-img" src="images/war-image.png" alt="Logo Game">
+        <div id="remaining-div">
+            <h1 id="title-remaining">Remaining cards:</h1>
+            <h2 id="remaining-cards">52</h2>
+        </div>
+
+        <h1 id="title-header">Let's start the Game!!</h1>
+
+        <div id="container-game">
+            <div class="score-div">
+                <h1 class="subtitle">Computer:</h1>
+                <h2 id="computer-score">&nbsp 0</h2>
+            </div>
+            
+            <div id="image-cards">
+                <div class="slot-card"></div>
+                <div class="slot-card"></div>
+            </div>
+    
+            <div class="score-div">
+                <h1 class="subtitle">Me:</h1>
+                <h2 id="me-score">&nbsp 0</h2>
+            </div>
+        </div>
+
+        
+
+        <button id="draw-cards" class="button" >Draw!</button>
+        
+    </div>
+        
+    <script type="module" src="index.js"></script>
+</body>
+</html>

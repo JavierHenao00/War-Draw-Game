@@ -1,0 +1,132 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+ 
+   
+}
+body{
+    background-image: url("images/background.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #308830;
+}
+
+.button{
+    background-color: gold;
+    font-size: 2rem;
+    font-family: Casino;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+.button:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+
+#container{
+    background-color: rgba(0, 0, 0, 0.411);
+    width:700px;
+    height: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+#container-game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#draw-cards{
+    
+    padding: 10px 309px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+#image-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+#remaining-div{
+ flex-direction: column;
+}
+
+
+.score-div{
+flex-direction: row;
+margin: 0.6em 0em;
+
+}
+
+#remaining-div,.score-div{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.slot-card{
+    height: 150px;
+    width: calc(150px * 5 / 7);
+    border: 2px  solid rgb(228, 222, 222);
+    border-radius: 9px;
+    margin: 0;
+    padding: 0;
+}
+
+
+#logo-img{
+    width: 20%;
+}
+
+.cards{
+    width: 100%;
+}
+
+h1{
+    color: rgb(228, 222, 222);
+    
+    font-weight: lighter;
+}
+
+h2{
+    color: gold;
+    
+    font-size: xx-large;
+}
+h1,h2{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Casino;
+    src: url('../Fonts/Casino3DFilledMarquee.ttf') format('truetype');
+     
+    font-style: normal;
+    font-weight: 300;
+  }
+
+#title-header{
+    font-family: Casino;
+    color: gold;
+    font-size: 3rem;
+    
+}
+.subtitle{
+    font-family: Casino;
+}
+#title-remaining{
+    color: aliceblue;
+    font-family: Casino;
+}
